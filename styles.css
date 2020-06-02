@@ -1,0 +1,86 @@
+body {
+    background-color: lightblue;
+    font-family: 'Raleway', sans-serif;
+  }
+  nav {
+    background-color:grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type:none;
+    text-align:center;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: hotpink;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+  }
+  .nav-link:hover {
+    color: lightblue;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: lightblue;
+    font-size: 14pt;
+  }
+  #brand .nav-link:hover {
+    color: hotpink;
+  }
+  h1 {
+    font-size: 60pt;
+  }
+  #home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3cm;
+    background: url("https://images.unsplash.com/photo-1579954115567-dff2eeb6fdeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") center 75% no-repeat fixed;
+    background-size: cover;
+  }
+  .header-tag {
+    text-align: center;
+    color: hotpink;
+    text-shadow: 2px 2px 2px black;
+  }
+    h3.header-tag {
+      margine-top: -30 px;
+      font-size: 18pt;
+    }
+  h2 {
+    font-family: 'Acme', sans-serif;
+    color:hotpink;
+  }
+  .main {
+  text-align: center;   
+  }
+  #about {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  #aboutpicture {
+    width:30vw;
+    float: left;
+  }
+  #profile-pic {
+    height : 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black;
+  }
+  #about-content {
+    width: 40vw;
+    float: right;
+  }
